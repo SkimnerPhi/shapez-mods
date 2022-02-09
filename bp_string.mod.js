@@ -1,3 +1,9 @@
+/*
+ * https://shapez.mod.io/blueprint-strings
+ * THIS MOD IS OUTDATED. USE THE ABOVE LINKED DOWNLOAD FOR CURRENT VERSION.
+ * KEPT FOR HISTORICAL REASONS ONLY.
+ */
+
 registerMod(() => {
   const BP_PREFIX = '>>>';
   const BP_SUFFIX = '<<<';

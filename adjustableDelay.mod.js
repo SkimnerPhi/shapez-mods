@@ -2,7 +2,7 @@ const METADATA = {
   website: 'https://github.com/SkimnerPhi/shapez-mods',
   author: 'SkimnerPhi',
   name: 'Adjustable Delay',
-  version: '1.1',
+  version: '1.2',
   id: 'adjustable-delay',
   description: 'Adds a wire building that delays signals by a player-set number of ticks',
   minimumGameVersion: '>=1.5.0'
@@ -11,6 +11,7 @@ const METADATA = {
 /* 
  * 1.0: Initial release
  * 1.1: Fixed bug where Adjustable Delay could predict the future when delay < 0
+ * 1.2: Delay setting copies properly when using blueprints
  */
 
 class AdjustableDelayComponent extends shapez.Component {
@@ -46,6 +47,10 @@ class AdjustableDelayComponent extends shapez.Component {
       
     this.signals = newArray;
     this.currentIdx = 0;
+  }
+  
+  copyAdditionalStateTo(otherComponent) {
+    otherComponent.delay = this.delay;
   }
 }
 class AdjustableDelaySystem extends shapez.GameSystemWithFilter {

@@ -2,17 +2,26 @@ Welcome to the Wild West of Shapez.IO modding. There will be bugs, there will be
 
 ## Installing mods:
 1. Back up any saves you care about. Often. Using mods has a possibility of corrupting a save.
+
 ![Step 1: Back up saves](./backupSaves.png)
+
 2. Go to the [mod.io](https://shapez.mod.io) page and find a mod you want to play. Or you can do a couple, but don't go overboard. The more mods installed the more issues will pop up.
 3. Open the `ZIP` file you just downloaded. There should be a `JS` file inside. Hang onto that.
+
 ![Step 3: Open the downloaded .ZIP file](./openModZip.png)
+
 4. Run the standalone game. Usually this will be through Steam.
 5. Starting from the main menu, follow the purple buttons to the mod folder.
+
 ![Step 4: Open the mods folder](./openFolder.png)
+
 6. Drag the `JS` file from step 2 into the mod folder. It must be *directly inside* the folder, if it is in a deeper folder or still in the `ZIP` it will not be found.
+
 ![Step 5: Copy the mod file](./copyModFile.png)
+
 7. Restart the game.
 8. If you've done everything correctly, the mod should show up in the mods list.
+
 ![Step 8: Mod list](./modList.png)
 
 ## FAQ:

@@ -1,4 +1,4 @@
-Welcome to the Wild West of Shapez.IO modding. There will be bugs, there will be struggles, but there will be fun new ways to play the game as well.
+Welcome to the Wild West of Shapez.io modding. There will be bugs, there will be struggles, but there will be fun new ways to play the game as well.
 
 ## Installing mods:
 1. Back up any saves you care about. Often. Using mods has a possibility of corrupting a save.
@@ -38,4 +38,4 @@ I told you to backup your saves... But you can also try [Save my Save](https://s
 ### I think I found a bug!
 See if you can figure out what mod is causing it, let the developer for that mod know in #mod-feedback.
 ### Can I turn off a mod?
-Not really, but you could just move it out of the `\mods` directory. I just have a `\mods\disabled` directory I use to move them out of the way.
+Not really, but you could just move it out of the `/mods` directory. I just have a `/mods/disabled` directory I use to move them out of the way.

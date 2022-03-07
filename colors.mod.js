@@ -1,5 +1,7 @@
 /**
  * ===== CHANGELOG =====
+ * 1.1.9
+ *   Increase compatibility with other mods that may use the Wires+ unmixing system
  * 1.1.8
  *   Fixed forgotten research shape (see 1.1.6)
  * 1.1.7
@@ -93,7 +95,7 @@ Object.assign($.T.ingame.colors, {
     [$c.ghost]: "Ghost",
 });
 // This is read by Wires+ color subtractors for results that cannot otherwise be inferred
-$.enumSpecialColorUnmixingResults = {
+const enumSpecialColorUnmixingResults = {
     [$c.orange]: {
         [$c.green]: $c.red,
     },
@@ -113,6 +115,10 @@ $.enumSpecialColorUnmixingResults = {
         [$c.blue]: $c.red,
     },
 };
+if (!$.enumSpecialColorUnmixingResults) {
+    $.enumSpecialColorUnmixingResults = {};
+}
+Object.assign($.enumSpecialColorUnmixingResults, enumSpecialColorUnmixingResults);
 
 for (const key in $.enumColorToShortcode) {
     $.enumShortcodeToColor[$.enumColorToShortcode[key]] = key;

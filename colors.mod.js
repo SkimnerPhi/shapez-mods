@@ -2,6 +2,7 @@
  * ===== CHANGELOG =====
  * 1.1.9
  *   Increase compatibility with other mods that may use the Wires+ unmixing system
+ *   Fix bug where Uncolored mixed with a tertiary color would result in White
  * 1.1.8
  *   Fixed forgotten research shape (see 1.1.6)
  * 1.1.7
@@ -40,7 +41,7 @@ const METADATA = {
     website: "https://shapez.mod.io/lots-of-colors",
     author: "83ben38 + SkimnerPhi",
     name: "Lots of Colors",
-    version: "v1.1.8",
+    version: "v1.1.9",
     id: "colors",
     description: "Adds tertiary colors including orange and pink, as well as black and an invisible color. Fully compatible with Shapez Industries.",
     minimumGameVersion: ">=1.5.0",

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="33.866665mm"
+   height="33.866665mm"
+   viewBox="0 0 33.866665 33.866665"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="multiplexer_icon.svg"
+   inkscape:export-filename="E:\shapez\cli\shapezio-mods\src\wires-plus\res\sprites\building_icons\multiplexer.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="4.525404"
+     inkscape:cx="16.462619"
+     inkscape:cy="47.178108"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="1072"
+     inkscape:window-y="375"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect5446"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,1.5875,0,1 @ F,0,0,1,0,1.5875,0,1 @ F,0,0,1,0,1.5875,0,1 @ F,0,0,1,0,1.5875,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="6"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-29.369562,-121.31388)">
+    <path
+       id="rect1093"
+       style="fill:#8e919b;stroke:#63656b;stroke-width:2.11667;stroke-linejoin:round;paint-order:markers stroke fill"
+       d="m 40.667621,126.79996 11.270547,4.18618 a 2.2831057,2.2831057 55.188153 0 1 1.488164,2.14024 v 10.24167 a 2.2831057,2.2831057 124.81185 0 1 -1.488164,2.14024 l -11.270547,4.18618 a 1.1038281,1.1038281 34.811847 0 1 -1.488164,-1.03476 v -20.82499 a 1.1038281,1.1038281 145.18815 0 1 1.488164,-1.03476 z"
+       sodipodi:nodetypes="ccccc"
+       inkscape:path-effect="#path-effect5446"
+       inkscape:original-d="m 39.179457,126.24722 14.246875,5.29166 v 13.41667 l -14.246875,5.29166 z" />
+    <path
+       style="fill:#63656b;fill-opacity:1;stroke:#63656b;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 44.168876,142.80758 h 4.268036"
+       id="path5481" />
+    <path
+       style="fill:#63656b;fill-opacity:1;stroke:#63656b;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 44.168876,134.74519 h 4.268036"
+       id="path5481-1" />
+    <path
+       style="fill:#63656b;fill-opacity:1;stroke:#63656b;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 46.302894,132.62464 v 4.2411"
+       id="path5481-10" />
+  </g>
+</svg>

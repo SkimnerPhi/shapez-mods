@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="33.866665mm"
+   height="33.866665mm"
+   viewBox="0 0 33.866665 33.866665"
+   version="1.1"
+   id="svg1005"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="diode_icon.svg"
+   inkscape:export-filename="E:\shapez\cli\shapezio-mods\src\wires-plus\res\sprites\building_icons\diode.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1007"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="4"
+     inkscape:cx="58.125"
+     inkscape:cy="49.875"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="1072"
+     inkscape:window-y="375"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1002">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect14268"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,2.6458333,0,1 @ F,0,0,1,0,2.6458333,0,1 @ F,0,0,1,0,2.6458333,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="10"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-47.95657,-57.217152)">
+    <path
+       id="path4236"
+       style="fill:#91949e;fill-opacity:1;stroke:#64666e;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       inkscape:transform-center-x="-1.6256806"
+       d="M 26.064453 22.638672 A 2.5401477 2.3466993 0 0 0 23.259766 24.972656 L 23.259766 103.02734 A 2.5401477 2.3466993 0 0 0 27.070312 105.06055 L 95.554688 68.533203 L 95.554688 102.58594 A 3 2.4757838 0 0 0 98.560547 105.06055 A 3 2.4757838 0 0 0 101.55664 102.58594 L 101.55664 25.414062 A 3 2.4757838 0 0 0 98.560547 22.939453 A 3 2.4757838 0 0 0 95.554688 25.414062 L 95.554688 59.46875 L 27.070312 22.941406 A 2.5401477 2.3466993 0 0 0 26.064453 22.638672 z "
+       transform="matrix(0.26458333,0,0,0.26458333,47.95657,57.217152)" />
+  </g>
+</svg>

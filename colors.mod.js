@@ -245,6 +245,8 @@ function applyColors({ includeBlack = false, includeGhost = false}) {
         $m[color][$c.white] = $c.white;
         // Any color with uncolored is itself
         $m[color][$c.uncolored] = color;
+        $m[$c.uncolored][color] = color;
+        
         if (includeBlack) {
             // Any color with itself is black
             $m[color][color] = $c.black;

@@ -1,5 +1,7 @@
 /**
  * ===== CHANGELOG =====
+ * 1.2.0
+ *    Add Mod Extras requirement
  * 1.1.9
  *   Increase compatibility with other mods that may use the Wires+ unmixing system
  *   Fix bug where Uncolored mixed with a tertiary color would result in White
@@ -41,12 +43,144 @@ const METADATA = {
     website: "https://shapez.mod.io/lots-of-colors",
     author: "83ben38 + SkimnerPhi",
     name: "Lots of Colors",
-    version: "v1.1.9",
+    version: "1.2.0 preview",
     id: "colors",
-    description: "Adds tertiary colors including orange and pink, as well as black and an invisible color. Fully compatible with Shapez Industries.",
+    description: "Adds tertiary colors such as orange and pink, as well as black and an invisible color. Fully compatible with Shapez Industries.",
     minimumGameVersion: ">=1.5.0",
     modId: "1839449",
+    extra: {
+      icon: "https://raw.githubusercontent.com/SkimnerPhi/shapez-mods/main/promo/colors/icon.png",
+      authors: [
+          "83ben38",
+          {
+              name: "SkimnerPhi",
+              icon: "https://avatars.githubusercontent.com/u/69558934",
+              website: "https://github.com/SkimnerPhi",
+          },
+      ],
+      screenshots: [
+          "https://image.modcdn.io/mods/86dc/1839449/paintrain.png",
+          "https://image.modcdn.io/mods/86dc/1839449/mixers.png",
+          "https://image.modcdn.io/mods/86dc/1839449/freeplay.png",
+      ],
+      source: "https://github.com/SkimnerPhi/shapez-mods/blob/main/colors.mod.js",
+      library: false,
+    },
 };
+
+{
+  const imgUrl = "https://raw.githubusercontent.com/SkimnerPhi/shapez-mods/main/promo/colors/";
+  const colorImage = (color) => `<img src="${imgUrl}${color.toLowerCase().replace(" ", "_")}.png" style="height:1em;" alt="${color}" title="${color}"/>`;
+  
+  METADATA.extra.readme = `
+  <p>
+    <a href="https://shapez.mod.io/shapez-industries" title="Works with SI" target="_blank">
+      <img src="${imgUrl}../si-shield.png" alt="Works with SI"/>
+    </a>
+    <a href="https://shapez.mod.io/sk-update" title="Supports SkUpdate" target="_blank">
+      <img src="${imgUrl}../skUpdate-shield.png" alt="Supports SkUpdate"/>
+    </a>
+  </p>
+  <h2>
+    <img src="${imgUrl}headerColors.png" style="height:1em;"/>
+    New Colors
+  </h2>
+  <p>
+    Adds six tertiary colors and two unique colors. Tertiary colors can be produced by mixing a primary color with a secondary color, unique colors follow other rules. New colors are added to level, upgrade, and freeplay shapez.
+  </p>
+  <h2>
+    <img src="${imgUrl}headerMixing.png" style="height:1em;"/>
+    New Mixing Recipes
+  </h2>
+  <p>
+    ${colorImage("Red")}
+    +
+    ${colorImage("Purple")}
+    =
+    ${colorImage("Pink")}
+    Pink
+  </p>
+  <p>
+    ${colorImage("Red")}
+    +
+    ${colorImage("Yellow")}
+    =
+    ${colorImage("Orange")}
+    Orange
+  </p>
+  <p>
+    ${colorImage("Green")}
+    +
+    ${colorImage("Yellow")}
+    =
+    ${colorImage("Light Green")}
+    Light Green
+  </p>
+  <p>
+    ${colorImage("Green")}
+    +
+    ${colorImage("Cyan")}
+    =
+    ${colorImage("Mint")}
+    Mint
+  </p>
+  <p>
+    ${colorImage("Blue")}
+    +
+    ${colorImage("Cyan")}
+    =
+    ${colorImage("Light Blue")}
+    Light Blue
+  </p>
+  <p>
+    ${colorImage("Blue")}
+    +
+    ${colorImage("Purple")}
+    =
+    ${colorImage("Dark Purple")}
+    Dark Purple
+  </p>
+  <p><!--Black-->
+    ${colorImage("Matching")}
+    +
+    ${colorImage("Matching")}
+    =
+    ${colorImage("Black")}
+    Black
+  </p>
+  <p><!--Ghost-->
+    ${colorImage("White")}
+    +
+    ${colorImage("Black")}
+    =
+    ${colorImage("Ghost")}
+    Ghost
+  </p>
+  <h2>
+    <img src="${imgUrl}headerCompat.png" style="height:1em;"/>
+    Other Mods
+  </h2>
+  <ul>
+    <li>
+      <a href="https://shapez.mod.io/shapez-industries" title="Shapez Industries by Sense101">
+        Shapez Industries
+      </a>
+      : changes levels and freeplay generation
+    </li>
+    <li>
+      <a href="https://shapez.mod.io/wires-plus" title="Wires+ by SkimnerPhi">
+        Wires+
+      </a>
+      : more results when using the Color Adder and Color Subtractor
+    </li>
+    <li>
+      <a href="https://shapez.mod.io/sk-update" title="SkUpdate by Skrip1645823745">
+        SkUpdate
+      </a>
+      : get notified of new updates
+    </li>
+  </ul>`;
+}
 
 const tertiaryColors = {
     orange: "orange",
@@ -228,17 +362,17 @@ function applyColors({ includeBlack = false, includeGhost = false}) {
     // Apply patches & reverses of patches
     // The reverse lookup generator may not copy the right recipe later,
     //   so we just assign both right now
-    for(const inA in $c) {
-        for(const inB in mixingPatches[inA]) {
+    for (const inA in $c) {
+        for (const inB in mixingPatches[inA]) {
             $m[inA][inB] = mixingPatches[inA][inB];
             $m[inB][inA] = mixingPatches[inA][inB];
         }
     }
 
-    for(const color in $m) {
+    for (const color in $m) {
         // Any mixture involving tertiary colors not already defined is white
-        for(const tertiary in tertiaryColors) {
-            if(!$m[color][tertiary]) {
+        for (const tertiary in tertiaryColors) {
+            if (!$m[color][tertiary]) {
                 $m[color][tertiary] = $c.white;
             }
         }
@@ -291,42 +425,27 @@ class Mod extends $.Mod {
         this.patchLevels();
         this.patchUpgrades();
         
-        this.signals.gameInitialized.add(root => {
-            const isIndustries = $.MODS.mods.some(m => m.metadata.id === "shapez-industries");
-            if (isIndustries) {
+        this.signals.appBooted.add(root => {
+            try {
+                this.industries = this.modInterface.require("shapez-industries", "*", true);
+                console.log(this.industries);
+                if (this.industries) {
+                    METADATA.extra.readme = METADATA.extra.readme.replaceAll(/<p><!--(Black|Ghost)-->/g, "<p hidden>");
+                }
+            } catch (e) {}
+          
+            if (this.industries) {
                 applyColors({});
             } else {
                 this.patchVanillaFreeplay();
                 applyColors({ includeBlack: true, includeGhost: true });
             }
         });
-        // Return colors back to a point that allows the game to load. Doesn't need to have everything, just enough to get backwards compat again.
-        this.signals.stateEntered.add(state => {
-            const isIndustries = $.MODS.mods.some(m => m.metadata.id === "shapez-industries");
-            if (isIndustries && state.key === "MainMenuState") {
-                Object.assign($c, specialColors);
-                Object.assign($.enumColorToShortcode, {
-                    [$c.black]: "k",
-                    [$c.ghost]: "s",
-                })
-                Object.assign($.enumShortcodeToColor, {
-                    "k": $c.black,
-                    "s": $c.ghost,
-                })
-                delete $.COLOR_ITEM_SINGLETONS[$c.black];
-                delete $.COLOR_ITEM_SINGLETONS[$c.ghost];
-                Object.assign($.COLOR_ITEM_SINGLETONS, {
-                    [$c.black]: new $.ColorItem($c.black),
-                    [$c.ghost]: new $.ColorItem($c.ghost),
-                })
-            }
-        });
     }  
   
     patchLevels() {
         this.signals.modifyLevelDefinitions.add(definitions => {
-            const isIndustries = $.MODS.mods.some(m => m.metadata.id === "shapez-industries");
-            if (isIndustries) {
+            if (this.industries) {
                 definitions[7].shape = "RcRc----";
                 //  8: n/c
                 //  9: n/c
@@ -519,8 +638,7 @@ class Mod extends $.Mod {
         };
         
         this.signals.modifyUpgrades.add(upgrades => {
-            const isIndustries = $.MODS.mods.some(m => m.metadata.id === "shapez-industries");
-            if (isIndustries) {
+            if (this.industries) {
                 return;
             }
             for (let lvl = 0; lvl < 999; lvl++) {

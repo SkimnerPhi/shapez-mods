@@ -1,10 +1,18 @@
+/**
+ * ===== CHANGELOG =====
+ * 1.0.1
+ *   Fix White Flowers name
+ * 1.0.0: Initial release
+ *   Add 9 types of decorative planters to the game
+ *   Planters cost 5 {SgRuRuSg} to place
+ */
 const $ = shapez;
 
 const METADATA = {
     website: "https://shapez.mod.io/plantz",
     author: "SkimnerPhi",
     name: "Plantz",
-    version: "1.0.0",
+    version: "1.0.1",
     id: "plantz",
     description: "Adds decorative flowers to the game",
     minimumGameVersion: ">=1.5.0",
@@ -116,7 +124,7 @@ class MetaPlanterBuilding extends $.ModMetaBuilding {
             },
             {
                 variant: enumPlanterVariants.white,
-                name: "Purple Flower",
+                name: "White Flower",
                 description: "A decorative planter. Smells like daisies.",
                 tutorialImageBase64: RESOURCES.tutorial,
             },

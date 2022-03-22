@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50.799999mm"
+   height="50.799999mm"
+   viewBox="0 0 50.799999 50.799999"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="E:\shapez\cli\shapezio-mods\src\wires-plus\res\sprites\buildings\constant_signal-rng.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="rng.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="140"
+     inkscape:cy="191.74999"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="1072"
+     inkscape:window-y="484"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter10125"
+       x="0"
+       y="0"
+       width="1.3429662"
+       height="2.1683413">
+      <feFlood
+         flood-opacity="0.121569"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood10115" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite10117" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0"
+         result="blur"
+         id="feGaussianBlur10119" />
+      <feOffset
+         dx="2.3"
+         dy="2.8"
+         result="offset"
+         id="feOffset10121" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite10123" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter10137"
+       x="0"
+       y="0"
+       width="1.072442"
+       height="1.0896877">
+      <feFlood
+         flood-opacity="0.121569"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood10127" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite10129" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0"
+         result="blur"
+         id="feGaussianBlur10131" />
+      <feOffset
+         dx="2.3"
+         dy="2.8"
+         result="offset"
+         id="feOffset10133" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite10135" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter26350"
+       x="0"
+       y="0"
+       width="1.134968"
+       height="1.1172755">
+      <feFlood
+         flood-opacity="0.121569"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood26340" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite26342" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0"
+         result="blur"
+         id="feGaussianBlur26344" />
+      <feOffset
+         dx="1.2987012987012889"
+         dy="1.7316017316017422"
+         result="offset"
+         id="feOffset26346" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite26348" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-80.525459,-146.94174)">
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter10137)"
+       id="rect858-2"
+       width="31.749535"
+       height="31.219437"
+       x="89.786079"
+       y="157.79005"
+       ry="2.6458333"
+       rx="2.6458333" />
+    <path
+       id="rect4106-9-9-3-0"
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:3.175;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter10125)"
+       d="m 108.67631,148.52924 h -5.48709 l -0.61686,2.39656 h 6.7062 z"
+       sodipodi:nodetypes="ccccc" />
+    <rect
+       style="fill:#9599a4;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill;fill-opacity:1;stroke:#64666e;stroke-opacity:1"
+       id="rect858"
+       width="31.749535"
+       height="31.219437"
+       x="89.786087"
+       y="157.79005"
+       ry="2.6458333" />
+    <path
+       id="rect8497-8-0-0"
+       style="fill:#ff0000;stroke:none;stroke-width:3.175;stroke-linejoin:round;paint-order:stroke fill markers;filter:url(#filter10125)"
+       d="m 98.517119,153.76217 v 11.52291 c 0,0.6925 0.5575,1.25 1.25,1.25 h 12.316671 c 0.6925,0 1.25,-0.5575 1.25,-1.25 v -11.52291 c 0,-0.6925 -0.5575,-1.25 -1.25,-1.25 H 99.767119 c -0.6925,0 -1.25,0.5575 -1.25,1.25 z" />
+    <path
+       id="rect4106-9-9-3"
+       style="fill:#797b85;fill-opacity:1;stroke:#64666e;stroke-width:3.175;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 108.67631,148.52924 h -5.48709 l -0.61686,2.39656 h 6.7062 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="rect8497-8-0"
+       style="fill:#dee1ea;stroke:#64666e;stroke-width:3.175;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="m 98.517124,153.76217 v 11.52291 c 0,0.6925 0.5575,1.25 1.25,1.25 h 12.316666 c 0.6925,0 1.25,-0.5575 1.25,-1.25 v -11.52291 c 0,-0.6925 -0.5575,-1.25 -1.25,-1.25 H 99.767124 c -0.6925,0 -1.25,0.5575 -1.25,1.25 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.7377px;line-height:1.25;font-family:Barlow;-inkscape-font-specification:'Barlow Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.5875;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;filter:url(#filter26350)"
+       x="105.51953"
+       y="186.11436"
+       id="text2553-9"
+       transform="scale(1.0012505,0.99875107)"><tspan
+         sodipodi:role="line"
+         id="tspan2551-7"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Barlow;-inkscape-font-specification:'Barlow Bold';text-align:center;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.5875;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         x="105.51953"
+         y="186.11436">?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.7377px;line-height:1.25;font-family:Barlow;-inkscape-font-specification:'Barlow Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#797b85;fill-opacity:1;stroke:#64666e;stroke-width:1.5875;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       x="105.51953"
+       y="186.11436"
+       id="text2553"
+       transform="scale(1.0012505,0.9987511)"><tspan
+         sodipodi:role="line"
+         id="tspan2551"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Barlow;-inkscape-font-specification:'Barlow Bold';text-align:center;text-anchor:middle;fill:#797b85;fill-opacity:1;stroke:#64666e;stroke-width:1.5875;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         x="105.51953"
+         y="186.11436">?</tspan></text>
+  </g>
+</svg>

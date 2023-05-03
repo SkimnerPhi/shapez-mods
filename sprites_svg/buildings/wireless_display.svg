@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="192"
+   height="192"
+   viewBox="0 0 50.799999 50.800001"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:export-filename="E:\shapez\shrimp\wires-minus_display\wireless_display-around.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   sodipodi:docname="wireless_display.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="8"
+     inkscape:cx="52.375"
+     inkscape:cy="88.6875"
+     inkscape:window-width="3840"
+     inkscape:window-height="2131"
+     inkscape:window-x="1341"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g4837"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="0,3.175"
+       orientation="0,1"
+       id="guide823"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="3.175,50.8"
+       orientation="-1,0"
+       id="guide827"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="47.625,50.8"
+       orientation="-1,0"
+       id="guide829"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="extrude"
+     style="display:inline">
+    <path
+       id="path4522-5"
+       style="color:#000000;display:inline;fill:#71737c;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 12 11 L 12 12 L 11 12 L 11 180 L 12 180 L 12 181 L 180 181 L 180 180 L 181 180 L 181 12 L 180 12 L 180 11 L 12 11 z "
+       transform="scale(0.26458333)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="corners"
+     style="display:inline">
+    <g
+       inkscape:groupmode="layer"
+       id="layer9"
+       inkscape:label="bottomright"
+       style="display:none">
+      <circle
+         style="fill:#64666e;fill-opacity:1;stroke:none;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="path4878-4"
+         cx="47.625"
+         cy="47.625"
+         r="1.5875" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer8"
+       inkscape:label="bottomleft"
+       style="display:inline">
+      <circle
+         style="fill:#64666e;fill-opacity:1;stroke:none;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="path4878-8"
+         cx="3.175"
+         cy="47.625"
+         r="1.5875" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer7"
+       inkscape:label="topright"
+       style="display:none">
+      <circle
+         style="fill:#64666e;fill-opacity:1;stroke:none;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="path4878-1"
+         cx="47.625"
+         cy="3.175"
+         r="1.5875" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer6"
+       inkscape:label="topleft"
+       style="display:inline">
+      <circle
+         style="fill:#64666e;fill-opacity:1;stroke:none;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="path4878"
+         cx="3.175"
+         cy="3.175"
+         r="1.5875" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="edges"
+     style="display:inline">
+    <g
+       inkscape:groupmode="layer"
+       id="g4837"
+       inkscape:label="right"
+       style="display:none">
+      <rect
+         style="fill:#64666e;fill-opacity:1;stroke:none;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect4835"
+         width="3.175"
+         height="44.450001"
+         x="46.037498"
+         y="3.175" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer3"
+       inkscape:label="left"
+       style="display:inline">
+      <rect
+         style="fill:#64666e;fill-opacity:1;stroke:none;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect4629"
+         width="3.175"
+         height="44.450001"
+         x="1.5875"
+         y="3.175" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="g4854"
+       inkscape:label="bottom"
+       style="display:inline">
+      <rect
+         style="fill:#64666e;fill-opacity:1;stroke:none;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect4852"
+         width="3.175"
+         height="44.450001"
+         x="-49.212502"
+         y="3.175"
+         transform="rotate(-90)" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="g4841"
+       inkscape:label="top"
+       style="display:inline">
+      <rect
+         style="fill:#64666e;fill-opacity:1;stroke:none;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect4839"
+         width="3.175"
+         height="44.450001"
+         x="-4.7624998"
+         y="3.175"
+         transform="rotate(-90)" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="surface"
+     style="display:inline">
+    <path
+       style="color:#000000;fill:#71737c;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 3.175,3.175 H 47.625001 V 47.625001 H 3.175 Z"
+       id="path4522" />
+  </g>
+</svg>
